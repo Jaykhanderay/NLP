@@ -1,0 +1,27 @@
+The Porter Stemmer is a stemming algorithm developed by Martin Porter in 1980. Stemming is the process of reducing words to their base or root form. In other words, it involves removing suffixes from words to obtain the root form, which may not always be a valid word but captures the core meaning.
+The Porter Stemmer is one of the most widely used stemming algorithms. It is designed to be simple and efficient, and it follows a set of heuristic rules to remove common suffixes. The goal is to reduce words to a common base so that variations of a word are treated as the same word.
+
+For example:
+
+"running" becomes "run"
+"flies" becomes "fli"
+"happiness" becomes "happi"
+
+------------------------------------------------------------------------------------------------------------
+#Lemmitization
+
+Lemmatization is a linguistic process that involves reducing words to their base or root form, known as the "lemma." Unlike stemming, which involves removing suffixes from words to obtain a common root, lemmatization considers the meaning of a word and transforms it to its base form while ensuring that the resulting lemma is a valid word.
+
+For example:
+
+"running" becomes "run"
+"flies" becomes "fly"
+"happiness" becomes "happy"
+Lemmatization aims to map words to their dictionary form, which is useful in natural language processing tasks where understanding the actual meaning of words is crucial. It helps in standardizing words and reducing inflected forms to a common base, making it easier to analyze and compare text data.
+
+In contrast to stemming, lemmatization requires 
+access to a lexical resource like a dictionary or a 
+morphological analysis system to determine the base form of a word. 
+The process involves considering the part-of-speech (POS) of a word 
+to accurately identify its lemma, as the lemma may vary based on 
+whether the word is a noun, verb, adjective, etc.
